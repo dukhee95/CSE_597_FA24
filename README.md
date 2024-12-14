@@ -1,4 +1,5 @@
 # CSE_597_FA24
+Name: DukHee Ka
 
 ## SMALLCAP
 

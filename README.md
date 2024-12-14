@@ -10,6 +10,7 @@ Download evaluation package from this [repository](https://github.com/daqingliu/
 
 For example, the directory of annotation folder should be places as follows: `./coco-caption/annotation/`
 
+
 ### Download the COCO index and captions
 Download the [COCO index](https://drive.google.com/file/d/1ZP5I-xbjaNU7cU48C_ctHd95SaA0jBHe/view?usp=sharing) and [related captions](https://drive.google.com/file/d/1BT0Qc6g40fvtnJ_yY0aipfCuCMgu5qaR/view?usp=sharing). 
 
@@ -17,10 +18,12 @@ Make a new directory: `./datastore`
 
 Place these files in datastore folder: `./datastore/coco_index.file` and `./datastore/coco_index_captions.json`
 
+
 ### Download COCO Karpathy splits file
 Dowload the COCO Karpathy splits file (dataset_coco.json) from this [repository](https://www.kaggle.com/datasets/shtvkumar/karpathy-splits).
 
 Place dataset_coco.json under the data folder: `./data/dataset_coco.json`
+
 
 ## Training
 The model is trained in Google Colab environment. The entire training process is conducted through `./prepare.ipynb` jupyter notebook file. Below summarizes this process.

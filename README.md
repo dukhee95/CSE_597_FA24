@@ -27,7 +27,7 @@ Place `dataset_coco.json` under the data folder: `./data/dataset_coco.json`
 
 
 ## TRAINING
-The model is trained in a Google Colab environment. The entire training process is conducted via `./prepare.ipynb` Jupyter notebook file. Below is a summary of the process:
+The model is trained in a Google Colab environment. The entire training process is conducted via `./prepare.ipynb` Jupyter notebook file. If you are unable to open prepare.ipynb in GitHub, please use this [repository](https://drive.google.com/file/d/1lshRN3rR9z7t8YuVeyQbZyuAcIRjGm1S/view?usp=drive_link) instead. Below is a summary of the process:
 - Install requirements
 - Download COCO 2017 dataset (train/test/val)
 - Put all COCO 2017 dataset into ./data/images/
